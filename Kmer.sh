@@ -4,11 +4,11 @@ ml kmc
 ##1. get kmer counts for each subgenome
 kmc -k15 -fm Yanli_A.fa subA . 
 kmc -k15 -fm Yanli_B.fa subB .
-kmc -k15 -fm Yanli_C.fa subCa .
-kmc -k15 -fm Yanli_D.fa subCb .
+kmc -k15 -fm Yanli_C.fa subC .
+kmc -k15 -fm Yanli_D.fa subD .
 
 ##2. get kmer counts for each intermediate polyploid
-kmc_tools simple subCa -ci100 subCb -ci100 intersect tetra_all
+kmc_tools simple subC -ci100 subD -ci100 intersect tetra_all
 kmc_tools simple tetra_all -ci100 subB -ci100 intersect hex_all
 kmc_tools simple hex_all -ci100 subA -ci100 intersect shared
 
