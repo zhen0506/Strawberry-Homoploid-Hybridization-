@@ -44,7 +44,7 @@ kmc_tools complex subD.par1
 ##6. Extract Kmer sequences for each kmer set 
 kmc_tools transform sp_subA dump sp_subA.txt
 kmc_tools transform sp_subB dump sp_subB.txt
-kmc_tools transform sp_subCa dump sp_subCa.txt
-kmc_tools transform sp_subCb dump sp_subCb.txt
+kmc_tools transform sp_subC dump sp_subC.txt
+kmc_tools transform sp_subD dump sp_subD.txt
 kmc_tools transform hex_sp dump hex_sp.txt
 kmc_tools transform tetra_sp1 dump tetra_sp1.txt
